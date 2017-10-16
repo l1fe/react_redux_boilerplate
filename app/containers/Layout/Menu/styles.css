@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  width: 20rem;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #2196F3;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list a {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.list a:hover {
+  color: #ddd;
+}

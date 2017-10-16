@@ -1,0 +1,24 @@
+.field {
+  position: relative;
+  width: 100%;
+}
+
+.field input {
+  display: block;
+  height: 3.2rem;
+  width: 100%;
+  outline: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.8rem 0.2rem;
+  border: 0;
+  border-bottom: 0.1rem solid #bebebe;
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+.field input:hover,
+.field input:focus {
+  border-color: #266194;
+}

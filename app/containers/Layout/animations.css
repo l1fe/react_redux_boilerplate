@@ -1,0 +1,12 @@
+@keyframes animationSlideIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideIn {
+  animation: animationSlideIn 0.2s;
+}

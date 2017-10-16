@@ -1,0 +1,53 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.2rem;
+  outline: 0;
+  border: 0;
+  padding: 0 1.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  transition: 0.2s;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button[raised] {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.26);
+}
+
+.button[raised]:active {
+  box-shadow: 0 0.8rem 1.7rem 0 rgba(0, 0, 0, 0.2);
+  transition-delay: 0s;
+}
+
+.button[primary] {
+  color: #fff;
+  background: #286da8;
+}
+
+.button[primary]:focus,
+.button[primary]:hover {
+  background: #266194;
+}
+
+.button[gray] {
+  background: #e8e8e8;
+  color: #000;
+}
+
+.button[gray]:hover,
+.button[gray]:active {
+  background: #dadada;
+}
+
+.button[danger] {
+  background: #cd5360;
+}
+
+.button[full-width] {
+  width: 100%;
+}
